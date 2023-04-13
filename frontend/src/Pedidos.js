@@ -8,7 +8,7 @@ export default function Pedidos(props) {
         //.filter(producto => producto.cliente === 12345)
 
     return <div id="pedido">
-        <h1 className='titulo'>Mis pedidos:</h1>
+        <h1 className='titulo'>Control de presencia</h1>
         <div className="card-container">
         {(prod_client.length === 0)
             ? <h2 className='no_pedido'>Lo sentimos, al parecer no tienes ningún pedido en activo.</h2>
